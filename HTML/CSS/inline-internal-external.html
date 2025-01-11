@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline-internal-external-css</title>
+    <style>
+        h3{
+            color: sienna !important;
+        }
+
+        p{
+            background-color: red;
+        }
+    </style>
+    <link rel="stylesheet" href="inline-internal-external.css">
+</head>
+<body>
+    <h3>welcome to CSS</h3>
+    <!-- by default if p tag have inline css property for background , and internal css property for same background , then the inline css get priority , untill internal css have '!important' keyword. -->
+    <p style="background-color: green;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos maxime ducimus nobis, rerum accusantium qui! Fugiat aliquid, doloribus dignissimos quam necessitatibus reiciendis reprehenderit ea sunt minima officiis molestias? Corrupti, aliquam!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quidem voluptate ratione nulla explicabo consequatur obcaecati amet in omnis, animi nemo eos, culpa eveniet aspernatur ab, esse dolorum mollitia officiis eaque nam dolores quo fuga? Odit similique autem nihil itaque!</p>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae voluptatibus rem nobis iure exercitationem. Voluptas asperiores dicta blanditiis quis. Id ipsa accusantium odit cum qui dolorum, aspernatur quaerat sapiente similique iusto repellat neque quod dolorem distinctio perferendis tenetur quo quos nostrum voluptate minus praesentium. Ut.</p>
+
+    <ol class="list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>PHP</li>
+    </ol>
+
+    <p id="para">this is for id selector</p>
+
+    <p class="first">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim ipsam iusto labore recusandae assumenda, alias optio itaque illum velit id earum ipsum, dolore deserunt voluptatum distinctio eligendi quasi, possimus aspernatur!</p>
+
+    <p class="sec">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis provident accusamus consectetur quaerat ea reiciendis optio eveniet alias laboriosam quibusdam perferendis temporibus rem architecto adipisci in aliquid voluptates iusto, quo excepturi obcaecati, necessitatibus reprehenderit corporis. Nam quod iste necessitatibus minus.</p>
+</body>
+</html>
